@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"better-comments.highlightPlainText": true,
+		"files.autoSave": "onFocusChange",
+		"workbench.colorTheme": "Material Theme",
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.view.alwaysShowHeaderActions": true
+	}
+}
