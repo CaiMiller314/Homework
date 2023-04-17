@@ -1,0 +1,57 @@
+<!-- Definition Statement -->
+I want to build an application that allows users to experience a hassle free option to plan a vacation or business trip.
+
+<!-- Definition of Audience -->
+Are you tired of spending unnecessary fees on a trip planner? What about using multiple applications to ensure your trip reaches it full potential? If your answer is "Yes" to either one of these questions then this application would be a perfect fit for you!
+
+<!-- Outline of content -->
+<!-- What do I want on each page? (text / pics / images / navigation) -->
+- First page needs to be aesthetically pleasing with a modern look. I want it to include a search bar and several pics of different places around the world to get the ball rolling for the user to think about where it is they want to take their vacation. It also needs to have different navigation tabs to quickly direct the user to the other 4 pages of the application.
+- Second Page needs to be the result of the user entering a specific city, state, or country from the home page. This page should show all of the available vacation home/hotel rental options for the specific area.
+- Third page needs to show dining options near the choice of vacation rental. I would like it to present a visual map with an eta of how far each local dining option is from the vacation rental. Each dining option should include a rating from 1-5 stars with a review option to browse past reviews of travelers and a section that allows a review from the current user.
+- Fourth page needs to show attraction/Things to do options near the choice of vacation rental. I would like it to also present a visual map with an eta of how far each local attraction option is from the vacation rental. Each attraction option should also include a rating from 1-5 stars with a review option to browse past reviews of travelers and a section that allows a review from the current user.
+- Fifth page needs to show a list of available flights with pricing included along with different flight companies labeled. It needs to include distance and travel time with each different flight option.
+- Sixth page needs to show Cart/Checkout summary of each choice that was picked from flight, vacation rental, dining, and attraction options with total price. It also needs to include an option to edit an item in cart and remove an item from the cart.
+- Seventh page needs to be an about us page. Providing the user some insight of the purpose of the application.
+<!-- What do I want the functionality of each page to be? -->
+-
+- Feedback, reviews, and rating scores
+- Menu, search options, content types and UI features
+- Geolocation and map feature
+- Push notifications
+<!-- What is the purpose of my application? -->
+The purpose of my application is to eliminate having to pay extra money on hiring a person to plan a trip for the user. It gives the user access to a straight forward step by step resource to plan their entire trip from one site.
+<!-- What business problem or real world problem am I going to be solving? -->
+ Trip planning confusions, unnecessary fees on trip planners, Access to your full trip details in one application.
+
+<!-- Color Palette, Images, Fonts, Logos, Navigation -->
+- Visby
+- Urbani
+- Hamburger navigation menu
+- Top horizontal navigation menu
+-
+-
+-
+<!-- Create and provide link to story map created in Mural -->
+
+<!-- Research: -->
+
+<!-- List Applications Researched: (links to websites / applications) -->
+- https://www.airbnb.com/
+- https://www.southwest.com/
+- https://www.google.com/maps
+- https://www.tripadvisor.com/
+- https://www.eventbrite.com/
+<!-- List what you like about each site: -->
+- Modern Look
+- Straight forward approach
+- Easy to navigate through
+- Bright theme/ easily visible
+- Creative logos
+- Map and location features
+<!-- List what you do not like about each site: -->
+- Southwest doesn't have a review option.
+- not as much contrast
+- sort of complex
+<!-- How my application will be different: -->
+ My application will include essentially different aspects of each researched application and incorporate them all in one single application. This eliminates the need to surf through different websites and allow the user to do everything all at once.
