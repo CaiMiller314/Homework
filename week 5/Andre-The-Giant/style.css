@@ -1,0 +1,56 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+  position: relative;
+  width: 320px;
+
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+}
+#bio > li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}
+@media(max-width: 667px){
+  .text-box h1{
+    font-size: 18px;
+  }
+  #bio > li{
+    display: block;
+  }
+  div{
+  position: absolute;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+  right: 0;
+  text-align: left;
+  z-index: 2;
+  }
+  }
