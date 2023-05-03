@@ -16,33 +16,38 @@ greetCustomer();
 // prints the order, i.e. "One large thick crust pizza with x, y, z, ... coming up!"
 // outputs a list with the size, crust, and toppings
 const getPizzaOrder = (size, crust, ...toppings) => {
-  console.log(`One ${size} ${crust} crust pizza with ${toppings} coming up!`);
-};
-getPizzaOrder("large", "crust", "sausage, pineapple, onions");
+  let order = `One ${size} ${crust} crust pizza with `;
+  for (let topping of toppings) {
+    order += `${topping}, `;
+  }
+  console.log(order + "coming up!");
+  return [size, crust, toppings];
+}
+
 
 // Create a preparePizza function that
 // has an array as its parameter with three items: a size, a crust, and a list of toppings
+
 // prints something like "...Cooking pizza..."
 // outputs a pizza Object with appropriate key-value pairs for size, crust, and toppings
 
-const preparePizza = ([]) => {
-  let pizza = {
-    size: arr[0],
-    crust: arr[1],
-    toppings: arr[2]
-  };
+const preparePizza = ([size, crust, ...toppings]) => {
   console.log("...Cooking pizza... ");
+  let pizza = {
+    oneSize: size,
+    oneCrust: crust,
+    oneToppings: toppings
+  };
   return pizza;
 };
 
-preparePizza();
 // Create a servePizza function that
 // has a parameter of a pizza Object
 // logs a message that the pizza is ready and repeats the order, i.e. "Order up! Here's your large thick crust pizza with x, y, z, ... Enjoy!"
 // outputs the same pizza Object that was passed in
 const servePizza = pizza => {
   console.log(
-    `${pizza.size} ${pizza.crust} crust ${pizza.toppings} is on deck`
+    `${pizza.size} ${pizza.crust} crust ${pizza.toppings} is on deck `
   );
   return pizza;
 };
