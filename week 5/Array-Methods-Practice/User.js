@@ -233,7 +233,7 @@ const arrObj1 =
 ]
 
 // create and print a list of phone numbers
-let result = arrObj1.map(numbers => numbers.phone)
+let result = arrObj1.map(num => num["phone"]);
 console.log(result)
 // create and print a list of website and email pairs (pair them in a string, array, or object)
 let arr = [];
@@ -243,5 +243,5 @@ arrObj1.forEach(num => {
     website: num.website
   }
   arr.push(tv)
-};
-console.log(result2, result3)
+});
+console.log(arr)
