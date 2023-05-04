@@ -304,7 +304,7 @@ const arrObj2 =
 
 // create a list of user 3's to-dos
 let result = arrObj2.filter(users => users.userId === 3)
-console.log(result)
+console.log(result);
 // then find the number of user 3's incomplete tasks
-let result2 = arrObj2.filter(notDone => notDone.completed === false && notDone.userId === 3 );
+let result2 = arrObj2.filter(notDone => notDone.completed === false);
 console.log(result2.length);

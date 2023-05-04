@@ -304,7 +304,7 @@ const arrObj3 =
 
 
 // create a list of user 5's posts
-let result = arrObj3.filter( user => userId ? 5 : arrObj3.title );
+let result = arrObj3.filter( user => arrObj3.userId ? 5 : arrObj3.title );
 console.log(result);
 // then, create a list of title and body pairs
 
