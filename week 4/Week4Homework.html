@@ -13,12 +13,14 @@
 <body>
     <section class="header">
       <nav>
-          <div class="nav">
+          <div class="nav" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
               <ul>
                   <li><a href="">HOME</a></li>
                   <li><a href="">About Us</a></li>
               </ul>
           </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
 <div class="text-box">
@@ -41,6 +43,17 @@
     <section class="footer">
 
     </section>
-    <script src="Week4Homework.js"></script>
+
+<!-- Javascript for Menu  -->
+
+    <script src="Week4Homework.js">
+        let navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
